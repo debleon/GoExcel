@@ -7,7 +7,6 @@
     android:background="@android:color/white"
     tools:context=".PerfilActivity">
 
-    <!-- Sección superior con fondo azul -->
     <RelativeLayout
         android:id="@+id/headerSection"
         android:layout_width="match_parent"
@@ -21,11 +20,7 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginStart="24dp"
-            android:layout_marginLeft="16dp"
             android:layout_marginTop="33dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
             android:contentDescription="@string/configuración"
             android:src="@drawable/engranaje1" />
 
@@ -33,12 +28,8 @@
             android:id="@+id/profileImage"
             android:layout_width="183dp"
             android:layout_height="191dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginStart="115dp"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="54dp"
-            android:layout_marginEnd="115dp"
             android:contentDescription="@string/foto_perfil"
             android:scaleType="centerCrop"
             app:shapeAppearanceOverlay="@style/CircularImage" />
@@ -50,12 +41,11 @@
             android:layout_alignTop="@id/profileImage"
             android:layout_alignEnd="@id/profileImage"
             android:layout_marginTop="-26dp"
-            android:layout_marginEnd="-99dp"
+            android:layout_marginEnd="-67dp"
             android:contentDescription="@string/editar_avatar"
             android:src="@drawable/editar" />
     </RelativeLayout>
 
-    <!-- Nombre y nivel debajo del avatar -->
     <LinearLayout
         android:id="@+id/userInfo"
         android:layout_below="@id/headerSection"
@@ -83,11 +73,10 @@
             android:textColor="@android:color/darker_gray" />
     </LinearLayout>
 
-    <!-- Sección de Logros -->
     <LinearLayout
         android:id="@+id/logrosLabelContainer"
-        android:layout_width="124dp"
-        android:layout_height="38dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/userInfo"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
@@ -102,8 +91,8 @@
 
         <TextView
             android:id="@+id/labelLogros"
-            android:layout_width="82dp"
-            android:layout_height="23dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:text="@string/logros"
             android:textSize="16sp"
@@ -115,75 +104,77 @@
         android:layout_below="@id/logrosLabelContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
         android:columnCount="2"
-        android:rowCount="2">
+        android:layout_margin="16dp"
+        android:gravity="center">
 
+        <!-- Insignia 1 -->
         <ImageView
-            android:layout_width="172dp"
+            android:id="@+id/logro1"
+            android:layout_width="160dp"
             android:layout_height="80dp"
             android:layout_margin="8dp"
             android:scaleType="centerInside"
             android:src="@drawable/ic_close" />
 
+        <!-- Insignia 2 -->
         <ImageView
-            android:layout_width="199dp"
-            android:layout_height="81dp"
+            android:id="@+id/logro2"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
             android:layout_margin="8dp"
             android:scaleType="centerInside"
             android:src="@drawable/ic_close" />
 
+        <!-- Insignia 3 -->
         <ImageView
-            android:layout_width="171dp"
-            android:layout_height="74dp"
+            android:id="@+id/logro3"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
             android:layout_margin="8dp"
             android:scaleType="centerInside"
             android:src="@drawable/ic_close" />
 
+        <!-- Insignia 4 -->
         <ImageView
-            android:layout_width="199dp"
-            android:layout_height="76dp"
+            android:id="@+id/logro4"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
             android:layout_margin="8dp"
             android:scaleType="centerInside"
             android:src="@drawable/ic_close" />
     </GridLayout>
-
-    <!-- Sección Resumen -->
     <LinearLayout
-        android:id="@+id/resumenLabelContainer"
-        android:layout_width="123dp"
-        android:layout_height="34dp"
+        android:id="@+id/progresoContainer"
         android:layout_below="@id/logrosGrid"
-        android:layout_marginStart="16dp"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="34dp"
-            android:contentDescription="@string/resumen"
-            android:src="@drawable/documento" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
 
         <TextView
-            android:id="@+id/labelResumen"
+            android:id="@+id/tvProgreso"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:text="Resumen"
-            android:textSize="16sp"
-            android:textStyle="bold" />
+            android:text="Tu avance general es del 0%"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <ProgressBar
+            android:id="@+id/barraProgreso"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:progress="0"
+            android:max="100"
+            android:progressTint="@color/green"
+            android:backgroundTint="#D3D3D3"
+            android:layout_marginBottom="12dp"/>
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/resumenBox"
-        android:layout_below="@id/resumenLabelContainer"
-        android:layout_margin="16dp"
-        android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:scaleType="fitCenter"
-        android:contentDescription="@string/resumen" />
 
-    <!-- Menú inferior -->
     <RelativeLayout
         android:id="@+id/bottomNav"
         android:layout_width="match_parent"
@@ -254,6 +245,4 @@
                 android:src="@drawable/favorito" />
         </LinearLayout>
     </RelativeLayout>
-
 </RelativeLayout>
-

@@ -28,6 +28,8 @@
 
     <color name="modulo2_background">#FFD6CC</color> <!-- Fondo coral claro -->
     <color name="modulo2_header">#FF6E64</color>     <!-- Header rojo coral -->
+    <color name="green">#4CAF50</color>
+
 
 
 

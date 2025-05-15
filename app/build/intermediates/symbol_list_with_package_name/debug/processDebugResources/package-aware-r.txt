@@ -1436,6 +1436,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color green
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color m3_appbar_overlay_color
@@ -3111,6 +3112,10 @@ drawable icon
 drawable informacion
 drawable informacion__1_
 drawable insignia
+drawable insignia1
+drawable insignia2
+drawable insignia3
+drawable insignia4
 drawable insignia__1_
 drawable linea_de_meta
 drawable logo
@@ -3302,6 +3307,7 @@ id avatar7
 id avatar8
 id avatar9
 id backButton
+id barraProgreso
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3540,7 +3546,6 @@ id jumpToEnd
 id jumpToStart
 id labelLogros
 id labelNuevaNota
-id labelResumen
 id labeled
 id layout
 id layoutContainer
@@ -3559,6 +3564,10 @@ id loginError
 id logo
 id logoImage
 id logoutPopup
+id logro1
+id logro2
+id logro3
+id logro4
 id logrosGrid
 id logrosLabelContainer
 id m3_side_sheet
@@ -3747,6 +3756,7 @@ id pregunta9
 id pressed
 id profileIcon
 id profileImage
+id progresoContainer
 id progressBar
 id progress_circular
 id progress_horizontal
@@ -3795,8 +3805,6 @@ id respuesta6
 id respuesta7
 id respuesta8
 id respuesta9
-id resumenBox
-id resumenLabelContainer
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3931,6 +3939,7 @@ id triangle
 id tvContenido
 id tvIntro
 id tvIntroPaso
+id tvProgreso
 id tvTituloCamino
 id tvTituloPaso
 id tvTituloPaso2

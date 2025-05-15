@@ -38,14 +38,14 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\Goexcel\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\ASUS\\StudioProjects\\GoExcel3\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "100",
+                        "startOffsets": "102",
                         "endLines": "5",
                         "endColumns": "12",
-                        "endOffsets": "314"
+                        "endOffsets": "319"
                     },
                     "to": {
                         "startLines": "2",

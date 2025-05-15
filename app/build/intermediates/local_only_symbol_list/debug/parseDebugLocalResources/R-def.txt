@@ -1,6 +1,7 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color green
 color modulo1_background
 color modulo1_header
 color modulo2_background
@@ -68,6 +69,10 @@ drawable icon
 drawable informacion
 drawable informacion__1_
 drawable insignia
+drawable insignia1
+drawable insignia2
+drawable insignia3
+drawable insignia4
 drawable insignia__1_
 drawable linea_de_meta
 drawable logo
@@ -95,6 +100,7 @@ id avatar7
 id avatar8
 id avatar9
 id backButton
+id barraProgreso
 id bottomActions
 id bottomNav
 id btnActualizar
@@ -183,7 +189,6 @@ id iconoResultado8
 id iconoResultado9
 id labelLogros
 id labelNuevaNota
-id labelResumen
 id layoutContainer
 id layoutOpciones
 id loginContent
@@ -191,6 +196,10 @@ id loginError
 id logo
 id logoImage
 id logoutPopup
+id logro1
+id logro2
+id logro3
+id logro4
 id logrosGrid
 id logrosLabelContainer
 id main
@@ -266,6 +275,7 @@ id pregunta8
 id pregunta9
 id profileIcon
 id profileImage
+id progresoContainer
 id progressBar
 id registerError
 id resp10_a
@@ -308,8 +318,6 @@ id respuesta6
 id respuesta7
 id respuesta8
 id respuesta9
-id resumenBox
-id resumenLabelContainer
 id scrollDesafios
 id scrollFavoritos
 id seccionesRuta
@@ -330,6 +338,7 @@ id tituloModulo
 id tvContenido
 id tvIntro
 id tvIntroPaso
+id tvProgreso
 id tvTituloCamino
 id tvTituloPaso
 id tvTituloPaso2
