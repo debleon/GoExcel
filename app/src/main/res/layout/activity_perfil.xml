@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".PerfilActivity">
+
+    <!-- Sección superior con fondo azul -->
+    <RelativeLayout
+        android:id="@+id/headerSection"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="#75C0FB">
+
+        <ImageView
+            android:id="@+id/btnSettings"
+            android:layout_width="50dp"
+            android:layout_height="47dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/configuración"
+            android:src="@drawable/engranaje1" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/profileImage"
+            android:layout_width="183dp"
+            android:layout_height="191dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="54dp"
+            android:layout_marginEnd="115dp"
+            android:contentDescription="@string/foto_perfil"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/CircularImage" />
+
+        <ImageView
+            android:id="@+id/btnEditAvatar"
+            android:layout_width="53dp"
+            android:layout_height="52dp"
+            android:layout_alignTop="@id/profileImage"
+            android:layout_alignEnd="@id/profileImage"
+            android:layout_marginTop="-26dp"
+            android:layout_marginEnd="-99dp"
+            android:contentDescription="@string/editar_avatar"
+            android:src="@drawable/editar" />
+    </RelativeLayout>
+
+    <!-- Nombre y nivel debajo del avatar -->
+    <LinearLayout
+        android:id="@+id/userInfo"
+        android:layout_below="@id/headerSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="12dp">
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pepa Parra"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/userLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nivel Intermedio"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <!-- Sección de Logros -->
+    <LinearLayout
+        android:id="@+id/logrosLabelContainer"
+        android:layout_width="124dp"
+        android:layout_height="38dp"
+        android:layout_below="@id/userInfo"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="31dp"
+            android:layout_height="37dp"
+            android:contentDescription="@string/logros"
+            android:src="@drawable/insignia" />
+
+        <TextView
+            android:id="@+id/labelLogros"
+            android:layout_width="82dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/logros"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/logrosGrid"
+        android:layout_below="@id/logrosLabelContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <ImageView
+            android:layout_width="172dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_close" />
+
+        <ImageView
+            android:layout_width="199dp"
+            android:layout_height="81dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_close" />
+
+        <ImageView
+            android:layout_width="171dp"
+            android:layout_height="74dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_close" />
+
+        <ImageView
+            android:layout_width="199dp"
+            android:layout_height="76dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_close" />
+    </GridLayout>
+
+    <!-- Sección Resumen -->
+    <LinearLayout
+        android:id="@+id/resumenLabelContainer"
+        android:layout_width="123dp"
+        android:layout_height="34dp"
+        android:layout_below="@id/logrosGrid"
+        android:layout_marginStart="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="34dp"
+            android:contentDescription="@string/resumen"
+            android:src="@drawable/documento" />
+
+        <TextView
+            android:id="@+id/labelResumen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Resumen"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resumenBox"
+        android:layout_below="@id/resumenLabelContainer"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/resumen" />
+
+    <!-- Menú inferior -->
+    <RelativeLayout
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_nav_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="12dp"
+            android:weightSum="5">
+
+            <ImageView
+                android:id="@+id/nav_home"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/inicio"
+                android:padding="8dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/home" />
+
+            <ImageView
+                android:id="@+id/nav_profile"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/perfil"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/user" />
+
+            <ImageView
+                android:id="@+id/nav_logo"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="-7dp"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/goexcel"
+                android:scaleType="centerInside"
+                android:src="@drawable/logo" />
+
+            <ImageView
+                android:id="@+id/nav_stats"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/statistics"
+                android:background="@drawable/circle_bg"
+                android:scaleType="centerInside"
+                android:padding="8dp"
+                android:contentDescription="@string/estad_sticas" />
+
+            <ImageView
+                android:id="@+id/nav_trophy"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/favoritos"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/favorito" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
+

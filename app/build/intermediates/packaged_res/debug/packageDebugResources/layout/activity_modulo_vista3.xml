@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainVista"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ruta3_background"
+    tools:context=".ModuloVista3Activity">
+
+    <!-- Encabezado -->
+    <RelativeLayout
+        android:id="@+id/headerVista"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/ruta3_header"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            android:contentDescription="@string/volver" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tituloModulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MODULO 3"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/subtituloModulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nivel Intermedio"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iconModulo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/informacion"
+            android:contentDescription="@string/icono_m_dulo_3" />
+    </RelativeLayout>
+
+    <!-- Contenido de información -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/headerVista"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Información"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="12dp" />
+
+        <GridLayout
+            android:layout_width="383dp"
+            android:layout_height="489dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:columnCount="2"
+            android:rowCount="2">
+
+            <View
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:background="@android:color/white" />
+
+            <View
+                android:layout_width="201dp"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:background="@android:color/white" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_columnSpan="2"
+                android:layout_margin="8dp"
+                android:background="@android:color/white" />
+        </GridLayout>
+    </LinearLayout>
+
+    <!-- Menú inferior -->
+    <RelativeLayout
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_nav_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="12dp"
+            android:weightSum="5">
+
+            <ImageView
+                android:id="@+id/nav_profile"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/perfil"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/home" />
+
+            <ImageView
+                android:id="@+id/nav_home"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/inicio"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/user" />
+
+            <ImageView
+                android:id="@+id/nav_logo"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="-7dp"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/goexcel"
+                android:scaleType="centerInside"
+                android:src="@drawable/logo" />
+
+            <ImageView
+                android:id="@+id/nav_stats"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/statistics"
+                android:background="@drawable/circle_bg"
+                android:scaleType="centerInside"
+                android:padding="8dp"
+                android:contentDescription="@string/estad_sticas" />
+
+            <ImageView
+                android:id="@+id/nav_trophy"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/favoritos"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/favorito" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

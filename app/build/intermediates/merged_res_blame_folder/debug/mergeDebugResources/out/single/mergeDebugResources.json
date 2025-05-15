@@ -1,0 +1,462 @@
+[
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_paso5_evaluacion.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_paso5_evaluacion.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_modulo_ruta1.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_modulo_ruta1.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.goexcel.app-main-43:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.goexcel.app-main-43:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_cerrar_con_llave.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/cerrar_con_llave.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_item_desafio.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/item_desafio.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_user.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/user.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_bottom_navigation.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/bottom_navigation.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_avatar__1_.gif.flat",
+        "source": "com.goexcel.app-main-43:/drawable/avatar__1_.gif"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_camino.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/camino.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_modulo_vista5.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_modulo_vista5.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_logo.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/logo.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_bg_goexcel_card.xml.flat",
+        "source": "com.goexcel.app-main-43:/drawable/bg_goexcel_card.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_dardo.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/dardo.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_avatar__7_.gif.flat",
+        "source": "com.goexcel.app-main-43:/drawable/avatar__7_.gif"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_paso3_practiquemos.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_paso3_practiquemos.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_popup_background.xml.flat",
+        "source": "com.goexcel.app-main-43:/drawable/popup_background.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_notificaciones.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_notificaciones.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_bg_desafio_incorrecto.xml.flat",
+        "source": "com.goexcel.app-main-43:/drawable/bg_desafio_incorrecto.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_login.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_paso4_aplicado.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_paso4_aplicado.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_desafios.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_desafios.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_modulo_vista4.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_modulo_vista4.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_puesta_en_marcha.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/puesta_en_marcha.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_favorito.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/favorito.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_home.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_btn_editar_style.xml.flat",
+        "source": "com.goexcel.app-main-43:/drawable/btn_editar_style.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.goexcel.app-main-43:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/xml_backup_rules.xml.flat",
+        "source": "com.goexcel.app-main-43:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_paso3_practica.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_paso3_practica.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_avatar__2_.gif.flat",
+        "source": "com.goexcel.app-main-43:/drawable/avatar__2_.gif"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.goexcel.app-main-43:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_bg_desafio_correcto.xml.flat",
+        "source": "com.goexcel.app-main-43:/drawable/bg_desafio_correcto.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_derecha.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/derecha.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_bottom_nav_background.xml.flat",
+        "source": "com.goexcel.app-main-43:/drawable/bottom_nav_background.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_btn_eliminar_style.xml.flat",
+        "source": "com.goexcel.app-main-43:/drawable/btn_eliminar_style.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_ic_error.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/ic_error.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_avatar__5_.gif.flat",
+        "source": "com.goexcel.app-main-43:/drawable/avatar__5_.gif"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_favoritos.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_favoritos.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_paso1_conceptos.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_paso1_conceptos.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_meta.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/meta.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_desafio_generico.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_desafio_generico.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_perfil.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_perfil.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_formula_evaluator.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_formula_evaluator.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.goexcel.app-main-43:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_avatar__4_.gif.flat",
+        "source": "com.goexcel.app-main-43:/drawable/avatar__4_.gif"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_avatar_selected_border.xml.flat",
+        "source": "com.goexcel.app-main-43:/drawable/avatar_selected_border.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_insignia.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/insignia.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_trofeo.gif.flat",
+        "source": "com.goexcel.app-main-43:/drawable/trofeo.gif"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_modulo_ruta3.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_modulo_ruta3.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_checklist.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/checklist.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_ic_close.xml.flat",
+        "source": "com.goexcel.app-main-43:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_avatar__3_.gif.flat",
+        "source": "com.goexcel.app-main-43:/drawable/avatar__3_.gif"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.goexcel.app-main-43:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.goexcel.app-main-43:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_engranaje1.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/engranaje1.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_back.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/back.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_curva_ruta.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/curva_ruta.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_linea_de_meta.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/linea_de_meta.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_editar_perfil.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_editar_perfil.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_comienzo.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/comienzo.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_avatar_background_selector.xml.flat",
+        "source": "com.goexcel.app-main-43:/drawable/avatar_background_selector.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_home.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/home.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_engranaje.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/engranaje.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.goexcel.app-main-43:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_destino.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/destino.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.goexcel.app-main-43:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_modulo_vista2.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_modulo_vista2.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_modulo_ruta4.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_modulo_ruta4.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_icon.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/icon.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_avatar__6_.gif.flat",
+        "source": "com.goexcel.app-main-43:/drawable/avatar__6_.gif"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_paso5_evaluacion_mod2.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_paso5_evaluacion_mod2.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_barra_de_menus.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/barra_de_menus.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/xml_data_extraction_rules.xml.flat",
+        "source": "com.goexcel.app-main-43:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_avatar__9_.gif.flat",
+        "source": "com.goexcel.app-main-43:/drawable/avatar__9_.gif"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_previous.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/previous.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_montana.gif.flat",
+        "source": "com.goexcel.app-main-43:/drawable/montana.gif"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_paso2_camino.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_paso2_camino.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_modulo_vista1.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_modulo_vista1.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_editar.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/editar.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.goexcel.app-main-43:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_ayuda.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_ayuda.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_avatar.gif.flat",
+        "source": "com.goexcel.app-main-43:/drawable/avatar.gif"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_modulo_ruta5.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_modulo_ruta5.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_pulgares_hacia_arriba.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/pulgares_hacia_arriba.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_informacion.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/informacion.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_register.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.goexcel.app-main-43:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_avatar__10_.gif.flat",
+        "source": "com.goexcel.app-main-43:/drawable/avatar__10_.gif"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.goexcel.app-main-43:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.goexcel.app-main-43:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_informacion__1_.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/informacion__1_.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_cerrar_sesion.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/cerrar_sesion.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_editar_avatar.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_editar_avatar.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_avatar__8_.gif.flat",
+        "source": "com.goexcel.app-main-43:/drawable/avatar__8_.gif"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_configuraciones.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/configuraciones.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_paso4_retos.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_paso4_retos.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_modulo_ruta2.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_modulo_ruta2.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_circle_bg.xml.flat",
+        "source": "com.goexcel.app-main-43:/drawable/circle_bg.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_cohete.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/cohete.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_statistics.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/statistics.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_documento.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/documento.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_verificacion.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/verificacion.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_avatar__12_.gif.flat",
+        "source": "com.goexcel.app-main-43:/drawable/avatar__12_.gif"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_ic_check.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/ic_check.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_rounded_button.xml.flat",
+        "source": "com.goexcel.app-main-43:/drawable/rounded_button.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_configuracion.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_configuracion.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_modulo_vista3.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_modulo_vista3.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_paso1_refuerzo.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_paso1_refuerzo.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_avatar__11_.gif.flat",
+        "source": "com.goexcel.app-main-43:/drawable/avatar__11_.gif"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_paso2_refuerzo.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_paso2_refuerzo.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.goexcel.app-main-43:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/drawable_insignia__1_.png.flat",
+        "source": "com.goexcel.app-main-43:/drawable/insignia__1_.png"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_privacidad.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_privacidad.xml"
+    },
+    {
+        "merged": "com.goexcel.app-debug-41:/layout_activity_main.xml.flat",
+        "source": "com.goexcel.app-main-43:/layout/activity_main.xml"
+    }
+]

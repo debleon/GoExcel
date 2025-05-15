@@ -1,0 +1,6 @@
+com.goexcel.test.app-annotation-experimental-1.4.0-0 C:\Users\ASUS\.gradle\caches\8.10.2\transforms\7bd59e5af8f731154e387d4a562afb3b\transformed\annotation-experimental-1.4.0\res
+com.goexcel.test.app-core-1.5.0-1 C:\Users\ASUS\.gradle\caches\8.10.2\transforms\efd352c5e968e7fd6bc276a5d6888cc4\transformed\core-1.5.0\res
+com.goexcel.test.app-androidTest-2 C:\Users\ASUS\AndroidStudioProjects\goexcel3\app\build\generated\res\resValues\androidTest\debug
+com.goexcel.test.app-mergeDebugAndroidTestResources-3 C:\Users\ASUS\AndroidStudioProjects\goexcel3\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.goexcel.test.app-mergeDebugAndroidTestResources-4 C:\Users\ASUS\AndroidStudioProjects\goexcel3\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.goexcel.test.app-debugAndroidTest-5 C:\Users\ASUS\AndroidStudioProjects\goexcel3\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

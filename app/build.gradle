@@ -1,0 +1,68 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services' // Plugin de Firebase
+}
+
+android {
+    namespace 'com.goexcel'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.goexcel"
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = '11'
+    }
+
+    // 🔧 Solución para conflicto con META-INF/DEPENDENCIES
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+    }
+}
+
+dependencies {
+    // AndroidX y UI
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.activity:activity-ktx:1.7.2'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    // OKHttp (para conexión a Google Apps Script)
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+
+    // Google Sheets API (solo si lo usas con OAuth)
+    implementation 'com.google.api-client:google-api-client-android:1.34.0'
+    implementation 'com.google.api-client:google-api-client-gson:1.34.0'
+
+    // Firebase
+    implementation 'com.google.firebase:firebase-auth-ktx:22.3.0'
+    implementation 'com.google.firebase:firebase-database-ktx:21.0.0'
+    implementation libs.androidx.activity
+
+    // Testing
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+}

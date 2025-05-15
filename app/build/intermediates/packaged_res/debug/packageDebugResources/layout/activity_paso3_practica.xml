@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/modulo2_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/modulo2_header"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back"
+            android:contentDescription="@string/volver" />
+
+        <TextView
+            android:id="@+id/tvTituloPaso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mod2_paso3_titulo"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/texto_oscuro"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mod2_paso3_intro"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/texto_gris" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:stretchColumns="1,2">
+
+        <TableRow>
+            <TextView android:text="" android:padding="8dp"/>
+            <TextView android:text="A" android:padding="8dp" android:textStyle="bold" android:background="#FFCDD2"/>
+            <TextView android:text="B" android:padding="8dp" android:textStyle="bold" android:background="#FFCDD2"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="1" android:padding="8dp" android:textStyle="bold" android:background="#FFE0B2"/>
+            <TextView android:text="Producto" android:padding="8dp" android:background="#FFF3E0"/>
+            <TextView android:text="Ventas" android:padding="8dp" android:background="#FFF3E0"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="2" android:padding="8dp" android:textStyle="bold" android:background="#FFE0B2"/>
+            <TextView android:text="A" android:padding="8dp" android:background="#FFEBEE"/>
+            <TextView android:text="15" android:padding="8dp" android:background="#FFEBEE"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="3" android:padding="8dp" android:textStyle="bold" android:background="#FFE0B2"/>
+            <TextView android:text="B" android:padding="8dp" android:background="#FFEBEE"/>
+            <TextView android:text="8" android:padding="8dp" android:background="#FFEBEE"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="4" android:padding="8dp" android:textStyle="bold" android:background="#FFE0B2"/>
+            <TextView android:text="C" android:padding="8dp" android:background="#FFEBEE"/>
+            <TextView android:text="22" android:padding="8dp" android:background="#FFEBEE"/>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mod2_paso3_pregunta"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textSize="15sp"
+        android:textColor="@color/texto_oscuro" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etRespuesta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mod2_paso3_hint"
+            android:backgroundTint="@color/texto_gris"
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            android:paddingEnd="40dp" />
+
+        <ImageView
+            android:id="@+id/iconoResultado"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnValidar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mod2_paso3_btn"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/modulo2_header"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+</LinearLayout>

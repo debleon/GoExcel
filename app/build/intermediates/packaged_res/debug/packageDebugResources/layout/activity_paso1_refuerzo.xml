@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/modulo2_background">
+
+    <!-- Header -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/modulo2_header"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back"
+            android:contentDescription="@string/volver" />
+
+        <TextView
+            android:id="@+id/tvTituloPaso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mod2_paso1_titulo"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/texto_oscuro"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <!-- Introducción -->
+    <TextView
+        android:id="@+id/tvIntroPaso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mod2_paso1_intro"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/texto_gris" />
+
+    <!-- WebView con Sheet -->
+    <WebView
+        android:id="@+id/webViewSheet"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Botón -->
+    <Button
+        android:id="@+id/btnLeccionAprendida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mod2_paso1_btn"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/modulo2_header"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+</LinearLayout>

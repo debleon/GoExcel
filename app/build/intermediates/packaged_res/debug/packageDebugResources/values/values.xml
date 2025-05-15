@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="modulo1_background">#E5FFF6</color>
+    <color name="modulo1_header">#00D4AA</color>
+    <color name="modulo2_background">#FFD6CC</color>
+    <color name="modulo2_header">#FF6E64</color>
+    <color name="ruta1_background">#C8E6C9</color>
+    <color name="ruta1_header">#2E7D32</color>
+    <color name="ruta2_background">#FFCDD2</color>
+    <color name="ruta2_header">#C62828</color>
+    <color name="ruta3_background">#ACB7F8</color>
+    <color name="ruta3_header">#1565C0</color>
+    <color name="ruta4_background">#FFF59D</color>
+    <color name="ruta4_header">#FFEB3B</color>
+    <color name="ruta5_background">#FFE0B2</color>
+    <color name="ruta5_header">#EF6C00</color>
+    <color name="texto_gris">#555555</color>
+    <color name="texto_oscuro">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="Mensaje_entrada">Domina Excel jugando.\nAprende con desafíos diarios y conviértete en un experto.</string>
+    <string name="activar_historial_favoritos">Activar historial de favoritos</string>
+    <string name="actualizar">ACTUALIZAR</string>
+    <string name="agregar_nota">Agregar Nota</string>
+    <string name="app_name">GoExcel</string>
+    <string name="back">flecha de regreso</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="btn_iniciar">Iniciar</string>
+    <string name="btn_register">REGISTRARSE</string>
+    <string name="btn_regresar">← Regresar</string>
+    <string name="btn_validar">Validar</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="cerrar_popup">Cerrar</string>
+    <string name="cerrar_sesi_n">Cerrar sesión</string>
+    <string name="como_aprenderas">¿Cómo lo aprenderás?</string>
+    <string name="como_aprenderas_desc">Te guiaremos paso a paso con ilustraciones y ejemplos claros en un entorno visual amigable.</string>
+    <string name="conceptos_basicos">Conceptos básicos</string>
+    <string name="configuración">Configuración</string>
+    <string name="content_description_opciones">Opciones del desafío</string>
+    <string name="content_description_pregunta">Texto de la pregunta</string>
+    <string name="content_description_respuesta">Campo de respuesta libre</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="desafio_1_desc">Aprende a usar SUMA, PROMEDIO y otras funciones comunes.</string>
+    <string name="desafio_1_titulo">Desafío 1: Fórmulas básicas</string>
+    <string name="desafio_2_desc">Aplica colores, bordes y tipo de letra a tus datos.</string>
+    <string name="desafio_2_titulo">Desafío 2: Formato de celdas</string>
+    <string name="desafio_3_desc">Organiza la información de forma eficiente con filtros y orden.</string>
+    <string name="desafio_3_titulo">Desafío 3: Ordenar y filtrar</string>
+    <string name="descripcion_nueva_nota">Campo para escribir una nueva nota</string>
+    <string name="e_mail">E-mail</string>
+    <string name="editar_avatar">Editar avatar</string>
+    <string name="error_campos_vacios">Por favor, ingrese todos los datos solicitados.</string>
+    <string name="error_contrasena">Las contraseñas no coinciden.</string>
+    <string name="estad_sticas">Estadísticas</string>
+    <string name="estadisticas">Estadísticas</string>
+    <string name="etiqueta_contrasena">Contraseña</string>
+    <string name="etiqueta_correo">Correo</string>
+    <string name="etiqueta_nombre">Nombre</string>
+    <string name="evaluar_respuestas">Evaluar respuestas</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="foto_de_perfil">Foto de perfil</string>
+    <string name="foto_perfil">Foto de perfil</string>
+    <string name="gcm_defaultSenderId" translatable="false">1082908464823</string>
+    <string name="goexcel">GoExcel</string>
+    <string name="google_api_key" translatable="false">AIzaSyDeydWyifGtuzzUUScZi1lGMu4AopY3aL8</string>
+    <string name="google_app_id" translatable="false">1:1082908464823:android:14d576f0be1fc66e945f32</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDeydWyifGtuzzUUScZi1lGMu4AopY3aL8</string>
+    <string name="google_storage_bucket" translatable="false">goexcel-b5452.firebasestorage.app</string>
+    <string name="guardar">Guardar</string>
+    <string name="hint_confirm_password">Confirmar Contraseña</string>
+    <string name="hint_contrasena">********</string>
+    <string name="hint_correo">usuario@gmail.com</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_nombre">Nombre Completo</string>
+    <string name="hint_nueva_nota">Escribe una nueva nota...</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="icono_desafio_1">Icono desafío 1</string>
+    <string name="icono_desafio_2">Icono desafío 2</string>
+    <string name="icono_desafio_3">Icono desafío 3</string>
+    <string name="icono_desafio_generico">Icono del desafío</string>
+    <string name="icono_m_dulo_1">Icono módulo 1</string>
+    <string name="icono_m_dulo_2">Icono módulo 2</string>
+    <string name="icono_m_dulo_3">Icono módulo 3</string>
+    <string name="icono_m_dulo_4">Icono módulo 4</string>
+    <string name="icono_m_dulo_5">Icono módulo 5</string>
+    <string name="icono_modulo">Ícono del módulo 1</string>
+    <string name="informacion">Información</string>
+    <string name="ingresar">INGRESAR</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="iniciar_sesi_n">INICIAR SESIÓN</string>
+    <string name="inicio">Inicio</string>
+    <string name="logo_app">Logo de la app GoExcel</string>
+    <string name="logo_text">Logo</string>
+    <string name="logros">Logros</string>
+    <string name="men">Menú</string>
+    <string name="menU">Menú</string>
+    <string name="mensaje_correcto">¡Correcto! ✅</string>
+    <string name="mensaje_incorrecto">Incorrecto. Intenta de nuevo.</string>
+    <string name="menu_icon_desc">Ícono de menú</string>
+    <string name="mod2_frase_buscarv">Ideal para encontrar datos en listas o bases de datos verticales.</string>
+    <string name="mod2_frase_contar_si">Filtra y cuenta datos que cumplan con condiciones específicas.</string>
+    <string name="mod2_frase_si">La lógica condicional permite automatizar decisiones en tus hojas.</string>
+    <string name="mod2_frase_si_error">Gestiona errores como un profesional y evita que se vean en tus reportes.</string>
+    <string name="mod2_frase_suma">Sumar te ayuda a consolidar información de forma rápida y efectiva.</string>
+    <string name="mod2_funcion_buscarv">=BUSCARV(valor, rango, columna, [ordenado])</string>
+    <string name="mod2_funcion_contar_si">=CONTAR.SI(rango, criterio)</string>
+    <string name="mod2_funcion_si">=SI(A1>10, "Sí", "No")</string>
+    <string name="mod2_funcion_si_error">=SI.ERROR(valor, valor_si_error)</string>
+    <string name="mod2_funcion_suma">=SUMA(A1:A5)</string>
+    <string name="mod2_p5_p10_a">CONTAR.SI</string>
+    <string name="mod2_p5_p10_b">BUSCARV</string>
+    <string name="mod2_p5_p10_c">SI.ERROR</string>
+    <string name="mod2_p5_p1_a">SUMA</string>
+    <string name="mod2_p5_p1_b">CONTAR</string>
+    <string name="mod2_p5_p1_c">SI</string>
+    <string name="mod2_p5_p2_a">Calcula el promedio</string>
+    <string name="mod2_p5_p2_b">Cuenta valores</string>
+    <string name="mod2_p5_p2_c">Resta celdas</string>
+    <string name="mod2_p5_p3_a">=SI(condición, valor_si_verdadero, valor_si_falso)</string>
+    <string name="mod2_p5_p3_b">=SI(valor, condición, falso)</string>
+    <string name="mod2_p5_p3_c">=SI(valor, falso, condición)</string>
+    <string name="mod2_p5_p4_a">BUSCARV</string>
+    <string name="mod2_p5_p4_b">CONTAR.SI</string>
+    <string name="mod2_p5_p4_c">MIN</string>
+    <string name="mod2_p5_p5_a">Un valor alternativo</string>
+    <string name="mod2_p5_p5_b">Un 0 fijo</string>
+    <string name="mod2_p5_p5_c">Nada</string>
+    <string name="mod2_p5_p6_a">MAX</string>
+    <string name="mod2_p5_p6_b">SI</string>
+    <string name="mod2_p5_p6_c">CONTAR.SI</string>
+    <string name="mod2_p5_p7_a">$A$1</string>
+    <string name="mod2_p5_p7_b">A1</string>
+    <string name="mod2_p5_p7_c">#A1</string>
+    <string name="mod2_p5_p8_a">No</string>
+    <string name="mod2_p5_p8_b">Sí</string>
+    <string name="mod2_p5_p8_c">Error</string>
+    <string name="mod2_p5_p9_a">OK</string>
+    <string name="mod2_p5_p9_b">NO</string>
+    <string name="mod2_p5_p9_c">Error</string>
+    <string name="mod2_p5_preg1">1. ¿Cuál es la función para sumar valores en Excel?</string>
+    <string name="mod2_p5_preg10">10. ¿Cuál es la función para contar solo si se cumple una condición?</string>
+    <string name="mod2_p5_preg2">2. ¿Qué hace la función PROMEDIO?</string>
+    <string name="mod2_p5_preg3">3. ¿Cuál es la sintaxis correcta de SI?</string>
+    <string name="mod2_p5_preg4">4. ¿Cuál es la función para buscar un valor?</string>
+    <string name="mod2_p5_preg5">5. ¿Qué devuelve SI.ERROR si hay un error?</string>
+    <string name="mod2_p5_preg6">6. ¿Qué función devuelve el valor máximo?</string>
+    <string name="mod2_p5_preg7">7. ¿Cuál es la forma correcta de referenciar una celda absoluta?</string>
+    <string name="mod2_p5_preg8">8. ¿Qué valor devuelve SI(4>5, "Sí", "No")?</string>
+    <string name="mod2_p5_preg9">9. ¿Cuál es el resultado de =SI(Y(5>2,3&lt;4),"OK","NO")?</string>
+    <string name="mod2_paso1_btn">Lección aprendida ✅</string>
+    <string name="mod2_paso1_intro">
+En este paso reforzaremos conceptos clave del módulo anterior y te presentaremos nuevas funciones importantes en Excel. Observa el siguiente archivo y familiarízate con su contenido.
+</string>
+    <string name="mod2_paso1_titulo">📘 Vamos a repasar</string>
+    <string name="mod2_paso2_btn">Lección aprendida ✅</string>
+    <string name="mod2_paso2_progreso">Paso 2 de 5</string>
+    <string name="mod2_paso2_titulo">📘 Sigamos reforzando</string>
+    <string name="mod2_paso3_btn">Validar respuesta</string>
+    <string name="mod2_paso3_hint">Escribe aquí tu fórmula</string>
+    <string name="mod2_paso3_intro">
+Observa la siguiente tabla de productos y ventas. A partir de esta información, escribe la fórmula que mostraría "Bien" si la celda B2 tiene un valor mayor a 10, o "Mejorar" si tiene un valor menor o igual.
+    </string>
+    <string name="mod2_paso3_pregunta">
+¿Cuál es la fórmula que debes usar para que Excel muestre "Bien" si la celda B2 es mayor a 10 y "Mejorar" si no lo es?
+    </string>
+    <string name="mod2_paso3_titulo">🧪 ¡Pongámoslo en práctica!</string>
+    <string name="mod2_paso4_btn">Retos completados ✅</string>
+    <string name="mod2_paso4_hint">Escribe tu fórmula aquí</string>
+    <string name="mod2_paso4_reto1">1️⃣ Si la nota está en la celda A2, escribe una fórmula que muestre "Aprobado" si es mayor o igual a 3.0, y "Reprobado" si es menor.</string>
+    <string name="mod2_paso4_reto2">2️⃣ Cuenta cuántas veces aparece "Sí" en el rango B2:B6 usando una fórmula.</string>
+    <string name="mod2_paso4_reto3">3️⃣ Usa BUSCARV para encontrar el precio de "ProductoX" en una tabla donde la columna A tiene nombres y la B los precios.</string>
+    <string name="mod2_paso4_reto4">4️⃣ Usa SI.ERROR para capturar un posible error en la división de A2 entre B2.</string>
+    <string name="mod2_paso4_reto5">5️⃣ Evalúa si la celda A2 es mayor que 5 Y si B2 es igual a "Sí", y muestra "Correcto" o "Incorrecto" según corresponda.</string>
+    <string name="mod2_paso4_titulo">🎯 Retos aplicados</string>
+    <string name="mod2_paso5_btn">Evaluar respuestas ✅</string>
+    <string name="mod2_paso5_titulo">🧠 Evaluación final</string>
+    <string name="modulo_1">MODULO 1
+Conceptos básicos</string>
+    <string name="modulo_1_icon_desc">Ícono del Módulo 1</string>
+    <string name="modulo_1_nconceptos_b_sicos">MODULO 1\nConceptos básicos</string>
+    <string name="modulo_2_nrefuerzo_de_conceptos">MODULO 2\nRefuerzo de conceptos</string>
+    <string name="modulo_3_nnivel_intermedio">MODULO 3\nNivel Intermedio</string>
+    <string name="modulo_4_nnivel_avanzado">MODULO 4\nNivel Avanzado</string>
+    <string name="modulo_5_nnivel_laboral">MODULO 5\nNivel Laboral</string>
+    <string name="modulo_desafios">Desafíos</string>
+    <string name="motivacion_buscarv">🔍 Aprender "BUSCARV" te permite moverte como pez en el agua en bases de datos.</string>
+    <string name="motivacion_contar_si">🔢 Saber contar con condiciones es saber encontrar significado entre los números.</string>
+    <string name="motivacion_si">🧠 Usar "SI" es pensar en lógica, como un verdadero estratega digital.</string>
+    <string name="motivacion_si_error">🛡️ Dominar "SI.ERROR" es tener control ante lo inesperado. ¡Tú decides qué mostrar!</string>
+    <string name="motivacion_suma">💡 Cada suma que haces te acerca al orden y la claridad en tus datos.</string>
+    <string name="nav_achievements">Logros</string>
+    <string name="nav_goexcel">Logo GoExcel</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_stats">Estadísticas</string>
+    <string name="nav_user">Perfil</string>
+    <string name="ocultar_avances">Ocultar mi progreso a otros módulos</string>
+    <string name="opcionA_1">=PROMEDIO(A1:A5)</string>
+    <string name="opcionA_10">=BUSCARV()</string>
+    <string name="opcionA_2">=MIN()</string>
+    <string name="opcionA_3">=PROMEDIO(A1:A10)</string>
+    <string name="opcionA_4">Evalúa si B2 es mayor que 5</string>
+    <string name="opcionA_5">=MAX(A1:A10)</string>
+    <string name="opcionA_6">Para sumar valores</string>
+    <string name="opcionA_7">Devuelve la fecha actual</string>
+    <string name="opcionA_8">=SUMA()</string>
+    <string name="opcionA_9">=ESNUMERO(A1)</string>
+    <string name="opcionB_1">=SUMA(A1:A5)</string>
+    <string name="opcionB_10">=SI()</string>
+    <string name="opcionB_2">=SUMA()</string>
+    <string name="opcionB_3">=SI(A1>10,1,0)</string>
+    <string name="opcionB_4">Suma los valores de B2</string>
+    <string name="opcionB_5">=MIN(A1:A10)</string>
+    <string name="opcionB_6">Para unir textos</string>
+    <string name="opcionB_7">Devuelve la hora actual</string>
+    <string name="opcionB_8">=CONTAR()</string>
+    <string name="opcionB_9">=CONTAR.SI(A1:A10,"texto")</string>
+    <string name="opcionC_1">=MAX(A1:A5)</string>
+    <string name="opcionC_10">=AHORA()</string>
+    <string name="opcionC_2">=MAX()</string>
+    <string name="opcionC_3">=CONTAR(A1:A10)</string>
+    <string name="opcionC_4">Promedia los valores</string>
+    <string name="opcionC_5">=SI(A1>0,1,0)</string>
+    <string name="opcionC_6">Para buscar datos</string>
+    <string name="opcionC_7">Devuelve el nombre del día</string>
+    <string name="opcionC_8">=PROMEDIO()</string>
+    <string name="opcionC_9">=ESTEXTO(A1)</string>
+    <string name="pagina_principal">Página Principal</string>
+    <string name="para_que_sirve">¿Para qué sirve?</string>
+    <string name="para_que_sirve_desc">Conocerás cómo trabajar con datos y moverte con soltura dentro de Excel.</string>
+    <string name="paso1_contenido">
+    En este primer paso aprenderás los conceptos básicos de Microsoft Excel.
+    Verás cómo está compuesto un libro de trabajo, qué es una hoja, cómo identificar las filas, columnas y celdas,
+    y cómo ingresar tus primeros datos. Esta base te permitirá comprender cómo se organiza la información en Excel
+    y por qué es tan útil en el entorno académico y laboral.
+</string>
+    <string name="paso1_intro">Observa cómo se ve un libro de Excel real y aprende su estructura básica.</string>
+    <string name="paso1_progreso">📘 Paso 1 de 5</string>
+    <string name="paso1_titulo">Vamos a empezar</string>
+    <string name="paso2_btn_leccion">Lección aprendida ✅</string>
+    <string name="paso2_frase_max">🌟 “Saca lo mejor de ti, como MAX encuentra el máximo.”</string>
+    <string name="paso2_frase_min">🌟 “Hasta los valores más pequeños tienen su valor.”</string>
+    <string name="paso2_frase_promedio">🌟 “El promedio es el equilibrio. Encuentra el tuyo.”</string>
+    <string name="paso2_frase_suma">🌟 “Suma conocimiento, no solo números.”</string>
+    <string name="paso2_funcion_max">
+🔹 =MAX(C1:C5)\nDevuelve el valor más alto dentro del rango.
+</string>
+    <string name="paso2_funcion_min">
+🔹 =MIN(D1:D5)\nDevuelve el valor más bajo dentro del rango.
+</string>
+    <string name="paso2_funcion_promedio">
+🔹 =PROMEDIO(B1:B10)\nCalcula el promedio de los valores entre las celdas B1 y B10.
+</string>
+    <string name="paso2_funcion_suma">
+🔹 =SUMA(A1:A5)\nSuma todos los valores entre las celdas A1 y A5.
+</string>
+    <string name="paso2_intro">
+💡 En Excel, las funciones básicas te ayudan a realizar operaciones automáticas. Estas son algunas de las más importantes:
+</string>
+    <string name="paso2_progreso">📘 Paso 2 de 5</string>
+    <string name="paso2_titulo">Sigamos el camino</string>
+    <string name="paso3_btn_practica">Práctica completada ✅</string>
+    <string name="paso3_btn_validar">Validar respuesta ✅</string>
+    <string name="paso3_instruccion">Observa esta tabla y responde: ¿cuál sería la fórmula para sumar las cantidades de todos los productos?</string>
+    <string name="paso3_respuesta_correcta">=SUMA(B2:B4)</string>
+    <string name="paso3_titulo">¡Practiquemos!</string>
+    <string name="paso4_btn_validar">Validar respuesta ✅</string>
+    <string name="paso4_explicacion">La función <b>=SI</b> permite evaluar condiciones. Por ejemplo:\n\n=SI(B2>5, "Aprobado", "Rechazado")\n\nEsto significa: "Si el valor en B2 es mayor a 5, muestra 'Aprobado', si no, muestra 'Rechazado'".</string>
+    <string name="paso4_hint">Escribe tu respuesta aquí</string>
+    <string name="paso4_progreso">📘 Paso 4 de 5</string>
+    <string name="paso4_situacion">🧠 Si B2 vale 7, ¿qué resultado mostrará esta fórmula?</string>
+    <string name="paso4_titulo">💡 Vamos más allá</string>
+    <string name="paso4_validar_todo">Validar todo ✅</string>
+    <string name="paso5_titulo">🧠 Evaluación final</string>
+    <string name="paso_1">Paso 1</string>
+    <string name="paso_2">Paso 2</string>
+    <string name="paso_3">Paso 3</string>
+    <string name="paso_4">Paso 4</string>
+    <string name="paso_5">Paso 5</string>
+    <string name="perfil">Perfil</string>
+    <string name="permitir_analisis">Permitir sugerencias basadas en mi uso</string>
+    <string name="permitir_mejora">Permitir mejora educativa con mis datos</string>
+    <string name="placeholder_respuesta_libre">Escribe tu respuesta</string>
+    <string name="pregunta_1">¿Cuál es la fórmula para sumar las celdas de A1 a A5?</string>
+    <string name="pregunta_10">¿Qué función sirve para buscar datos verticalmente?</string>
+    <string name="pregunta_2">¿Qué función devuelve el valor más alto en un rango?</string>
+    <string name="pregunta_3">¿Qué fórmula usarías para calcular el promedio?</string>
+    <string name="pregunta_4">¿Qué hace la función =SI(B2>5,"Aprobado","Rechazado")?</string>
+    <string name="pregunta_5">¿Cuál devuelve el valor más bajo?</string>
+    <string name="pregunta_6">¿Para qué sirve la función CONCATENAR?</string>
+    <string name="pregunta_7">¿Qué hace la fórmula =HOY()?</string>
+    <string name="pregunta_8">¿Cuál función cuenta las celdas con números?</string>
+    <string name="pregunta_9">¿Cuál evalúa si una celda contiene texto?</string>
+    <string name="pregunta_no_disponible">Pregunta no disponible</string>
+    <string name="previous">flecha de regreso2</string>
+    <string name="privacidad">Privacidad</string>
+    <string name="profile_icon">Ícono de perfil</string>
+    <string name="project_id" translatable="false">goexcel-b5452</string>
+    <string name="que_aprenderas">¿Qué aprenderás?</string>
+    <string name="que_aprenderas_desc">Identificar celdas, columnas, filas y comprender la estructura básica de Excel.</string>
+    <string name="recibir_recordatorios">Recibir alertas de repaso o módulo</string>
+    <string name="registrarse">REGISTRARSE</string>
+    <string name="registro_exitoso">Registro exitoso</string>
+    <string name="responde">Escribe tu respuesta aquí</string>
+    <string name="resumen">Resumen</string>
+    <string name="salir">Salir</string>
+    <string name="seccion_lecciones">⭐ Lecciones favoritas</string>
+    <string name="seccion_notas">📝 Mis notas</string>
+    <string name="seleccion_avatar">Selecciona tu avatar preferido</string>
+    <string name="si_ejemplo_1">1️⃣ Si B2 = 7, ¿qué resultado devuelve esta fórmula?\n=SI(B2>5, "Aprobado", "Rechazado")</string>
+    <string name="si_ejemplo_2">2️⃣ Si B2 = 3, ¿qué resultado devuelve esta fórmula?\n=SI(B2>=3, "Sí", "No")</string>
+    <string name="si_ejemplo_3">3️⃣ Si B2 = "X", ¿qué resultado da?\n=SI(B2="X", "Correcto", "Incorrecto")</string>
+    <string name="si_ejemplo_4">4️⃣ Si B2 = 0, ¿qué devuelve?\n=SI(B2>0, "Positivo", "No positivo")</string>
+    <string name="si_ejemplo_5">5️⃣ Si B2 = 100, ¿qué devuelve esta fórmula?\n=SI(B2>50, "Alto", "Bajo")</string>
+    <string name="te_da_la_bienvenida">TE DA LA BIENVENIDA</string>
+    <string name="titulo_desafios">Desafíos GOEXCEL</string>
+    <string name="titulo_favoritos">Mis Favoritos</string>
+    <string name="validar_desafio">Validar Desafío</string>
+    <string name="volver">Volver</string>
+    <style name="Base.Theme.Goexcel" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="CircularImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">40%</item>
+    </style>
+    <style name="ConfigItem">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">#EEEEEE</item>
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+    <style name="LabelField">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="OpcionTexto">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="TablaCelda">
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:background">#E8F5E9</item>
+    </style>
+    <style name="TablaCeldaCabecera">
+        <item name="android:padding">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">#C8E6C9</item>
+    </style>
+    <style name="Theme.Goexcel" parent="Base.Theme.Goexcel"/>
+</resources>

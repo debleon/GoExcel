@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5F9F4">
+
+    <!-- Encabezado -->
+    <RelativeLayout
+        android:id="@+id/headerDesafios"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#57DEB3"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <TextView
+            android:id="@+id/tituloDesafios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo_desafios"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <!-- ScrollView con contenedor dinámico -->
+    <ScrollView
+        android:id="@+id/scrollDesafios"
+        android:layout_width="match_parent"
+        android:layout_height="564dp"
+        android:layout_above="@id/bottomNav"
+        android:layout_below="@id/headerDesafios"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:id="@+id/layoutContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <!-- Menú inferior -->
+    <RelativeLayout
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_nav_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="12dp"
+            android:weightSum="5">
+
+            <ImageView
+                android:id="@+id/nav_profile"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/perfil"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/home" />
+
+            <ImageView
+                android:id="@+id/nav_home"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/inicio"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/user" />
+
+            <ImageView
+                android:id="@+id/nav_logo"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="-7dp"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/goexcel"
+                android:scaleType="centerInside"
+                android:src="@drawable/logo" />
+
+            <ImageView
+                android:id="@+id/nav_stats"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/statistics"
+                android:background="@drawable/circle_bg"
+                android:scaleType="centerInside"
+                android:padding="8dp"
+                android:contentDescription="@string/estadisticas" />
+
+            <ImageView
+                android:id="@+id/nav_trophy"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/favoritos"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/favorito" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

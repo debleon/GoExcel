@@ -1,0 +1,193 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#75C0FB">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomActions"
+        android:fillViewport="true"
+        android:contentDescription="@string/seleccion_avatar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center_horizontal">
+
+            <!-- Fila 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/avatar1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/avatar__1_"
+                    android:scaleType="centerCrop"
+                    app:shapeAppearanceOverlay="@style/CircularImage" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/avatar2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/avatar__2_"
+                    android:scaleType="centerCrop"
+                    app:shapeAppearanceOverlay="@style/CircularImage" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/avatar3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/avatar__3_"
+                    android:scaleType="centerCrop"
+                    app:shapeAppearanceOverlay="@style/CircularImage" />
+            </LinearLayout>
+
+            <!-- Fila 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/avatar4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/avatar__4_"
+                    android:scaleType="centerCrop"
+                    app:shapeAppearanceOverlay="@style/CircularImage" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/avatar5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/avatar__5_"
+                    android:scaleType="centerCrop"
+                    app:shapeAppearanceOverlay="@style/CircularImage" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/avatar6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/avatar"
+                    android:scaleType="centerCrop"
+                    app:shapeAppearanceOverlay="@style/CircularImage" />
+            </LinearLayout>
+
+            <!-- Fila 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/avatar7"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/avatar__7_"
+                    android:scaleType="centerCrop"
+                    app:shapeAppearanceOverlay="@style/CircularImage" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/avatar8"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/avatar__8_"
+                    android:scaleType="centerCrop"
+                    app:shapeAppearanceOverlay="@style/CircularImage" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/avatar9"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/avatar__9_"
+                    android:scaleType="centerCrop"
+                    app:shapeAppearanceOverlay="@style/CircularImage" />
+            </LinearLayout>
+
+            <!-- Fila 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/avatar10"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/avatar__10_"
+                    app:shapeAppearanceOverlay="@style/CircularImage" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/avatar11"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/avatar__11_"
+                    app:shapeAppearanceOverlay="@style/CircularImage" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/avatar12"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/avatar__12_"
+                    app:shapeAppearanceOverlay="@style/CircularImage" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Botones -->
+    <LinearLayout
+        android:id="@+id/bottomActions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal"
+        android:background="#75C0FB">
+
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="290dp"
+            android:layout_height="61dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:text="@string/actualizar"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="293dp"
+            android:layout_height="61dp"
+            android:backgroundTint="@android:color/white"
+            android:text="@string/cancelar"
+            android:textColor="#007AFF" />
+    </LinearLayout>
+</RelativeLayout>
+
+

@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Contenedor scroll para formulario -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical">
+
+            <!-- Logo -->
+            <ImageView
+                android:id="@+id/logoImage"
+                android:layout_width="219dp"
+                android:layout_height="230dp"
+                android:layout_marginBottom="80dp"
+                android:contentDescription="@string/logo_app"
+                android:src="@drawable/logo" />
+
+            <!-- Campos de registro -->
+            <EditText
+                android:id="@+id/emailInput"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:autofillHints="emailAddress"
+                android:hint="@string/hint_email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/nameInput"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:autofillHints="name"
+                android:hint="@string/hint_nombre"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/passwordInput"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:autofillHints="password"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/confirmPasswordInput"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:autofillHints="password"
+                android:hint="@string/hint_confirm_password"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/registerError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#D32F2F"
+                android:visibility="gone"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Botón -->
+            <Button
+                android:id="@+id/btnRegister"
+                style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+                android:layout_width="223dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="32dp"
+                android:backgroundTint="#FFFFFF"
+                android:padding="12dp"
+                android:text="@string/btn_register"
+                android:textColor="#2196F3"
+                android:textSize="16sp" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Flecha de regreso -->
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/back"
+        android:contentDescription="@string/back"
+        android:clickable="true"
+        android:focusable="true" />
+</RelativeLayout>

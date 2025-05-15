@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!-- Contenido principal -->
+    <ScrollView
+        android:id="@+id/contenidoPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomNav"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Encabezado -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#75C0FB">
+
+                <TextView
+                    android:id="@+id/txtTitulo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/perfil"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <!-- Imagen de perfil -->
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/profileImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/foto_de_perfil"
+                app:shapeAppearanceOverlay="@style/CircularImage" />
+
+            <!-- Campos -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="32dp">
+
+                <TextView android:text="@string/etiqueta_nombre" style="@style/LabelField" />
+
+                <EditText
+                    android:id="@+id/edtNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:hint="@string/hint_nombre"
+                    android:inputType="textPersonName"
+                    android:autofillHints="name"
+                    android:background="@android:color/darker_gray"
+                    android:padding="12dp"
+                    android:importantForAutofill="yes" />
+
+                <TextView android:text="@string/etiqueta_correo" style="@style/LabelField" />
+
+                <EditText
+                    android:id="@+id/edtCorreo"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:hint="@string/hint_correo"
+                    android:inputType="textEmailAddress"
+                    android:autofillHints="emailAddress"
+                    android:enabled="false"
+                    android:background="@android:color/darker_gray"
+                    android:padding="12dp" />
+
+                <TextView android:text="@string/etiqueta_contrasena" style="@style/LabelField" />
+
+                <EditText
+                    android:id="@+id/edtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:hint="@string/hint_contrasena"
+                    android:inputType="textPassword"
+                    android:autofillHints="password"
+                    android:background="@android:color/darker_gray"
+                    android:padding="12dp"
+                    android:importantForAutofill="yes" />
+            </LinearLayout>
+
+            <!-- Botones -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="24dp">
+
+                <Button
+                    android:id="@+id/btnGuardar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="56dp"
+                    android:text="@string/guardar"
+                    android:backgroundTint="#75C0FB"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btnSalir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="56dp"
+                    android:layout_marginStart="16dp"
+                    android:backgroundTint="#E2DDDD"
+                    android:text="@string/salir"
+                    android:textColor="#101010" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Menú inferior fijo -->
+    <RelativeLayout
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_nav_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="12dp"
+            android:weightSum="5">
+
+            <ImageView
+                android:id="@+id/nav_home"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/inicio"
+                android:padding="8dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/home" />
+
+            <ImageView
+                android:id="@+id/nav_profile"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/perfil"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/user" />
+
+            <ImageView
+                android:id="@+id/nav_logo"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="-7dp"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/goexcel"
+                android:scaleType="centerInside"
+                android:src="@drawable/logo" />
+
+            <ImageView
+                android:id="@+id/nav_stats"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/statistics"
+                android:background="@drawable/circle_bg"
+                android:scaleType="centerInside"
+                android:padding="8dp"
+                android:contentDescription="@string/estad_sticas" />
+
+            <ImageView
+                android:id="@+id/nav_trophy"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/favoritos"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/favorito" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

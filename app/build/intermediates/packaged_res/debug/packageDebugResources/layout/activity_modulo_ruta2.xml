@@ -1,0 +1,178 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainRuta1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ruta2_background"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ModuloRuta1Activity">
+
+    <!-- Encabezado -->
+    <RelativeLayout
+        android:id="@+id/headerRuta2"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:padding="16dp"
+        android:background="@color/ruta2_header">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/volver"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tituloModulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Módulo 2"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_centerInParent="true" />
+        <TextView
+            android:id="@+id/subtituloModulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refuerzo de conceptos"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:layout_below="@id/tituloModulo"
+            android:layout_alignStart="@id/tituloModulo" />
+    </RelativeLayout>
+
+    <!-- Ruta visual con pasos -->
+    <ScrollView
+        android:id="@+id/seccionesRuta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/headerRuta2"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/paso1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="@string/paso_1"
+                android:src="@drawable/comienzo" />
+
+            <ImageView
+                android:id="@+id/paso2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="@string/paso_2"
+                android:src="@drawable/camino" />
+
+            <ImageView
+                android:id="@+id/paso3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="@string/paso_3"
+                android:src="@drawable/checklist" />
+
+            <ImageView
+                android:id="@+id/paso4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="@string/paso_4"
+                android:src="@drawable/cohete" />
+
+            <ImageView
+                android:id="@+id/paso5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="60dp"
+                android:contentDescription="@string/paso_5"
+                android:src="@drawable/meta" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Menú inferior -->
+    <RelativeLayout
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_nav_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="12dp"
+            android:weightSum="5">
+
+            <ImageView
+                android:id="@+id/nav_profile"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/perfil"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/home" />
+
+            <ImageView
+                android:id="@+id/nav_home"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/inicio"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/user" />
+
+            <ImageView
+                android:id="@+id/nav_logo"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="-7dp"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/goexcel"
+                android:scaleType="centerInside"
+                android:src="@drawable/logo" />
+
+            <ImageView
+                android:id="@+id/nav_stats"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/statistics"
+                android:background="@drawable/circle_bg"
+                android:scaleType="centerInside"
+                android:padding="8dp"
+                android:contentDescription="@string/estad_sticas" />
+
+            <ImageView
+                android:id="@+id/nav_trophy"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/favoritos"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/favorito" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
+

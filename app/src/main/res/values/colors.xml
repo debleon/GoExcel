@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Módulo 1 -->
+    <color name="ruta1_header">#2E7D32</color>
+    <color name="ruta1_background">#C8E6C9</color>
+
+    <!-- Módulo 2 -->
+    <color name="ruta2_header">#C62828</color>
+    <color name="ruta2_background">#FFCDD2</color>
+
+    <!-- Módulo 3 -->
+    <color name="ruta3_header">#1565C0</color>
+    <color name="ruta3_background">#ACB7F8</color>
+
+    <!-- Módulo 4 -->
+    <color name="ruta4_header">#FFEB3B</color>
+    <color name="ruta4_background">#FFF59D</color>
+
+    <!-- Módulo 5 -->
+    <color name="ruta5_header">#EF6C00</color>
+    <color name="ruta5_background">#FFE0B2</color>
+    <color name="modulo1_header">#00D4AA</color>
+    <color name="modulo1_background">#E5FFF6</color>
+    <color name="texto_oscuro">#000000</color>
+    <color name="texto_gris">#555555</color>
+
+    <color name="modulo2_background">#FFD6CC</color> <!-- Fondo coral claro -->
+    <color name="modulo2_header">#FF6E64</color>     <!-- Header rojo coral -->
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,209 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/modulo1_background">
+
+    <!-- Encabezado GOEXCEL -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/modulo1_header"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back"
+            android:contentDescription="@string/volver" />
+
+        <TextView
+            android:id="@+id/tvTituloCamino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/paso2_titulo"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/texto_oscuro"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <!-- Indicador de Progreso -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/paso2_progreso"
+        android:textAlignment="viewEnd"
+        android:padding="12dp"
+        android:textSize="14sp"
+        android:textColor="#888888" />
+
+    <!-- Contenido con Scroll -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Introducción -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/paso2_intro"
+                android:textSize="16sp"
+                android:textColor="@color/texto_oscuro"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Tarjeta SUMA -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                card_view:cardCornerRadius="12dp"
+                card_view:cardElevation="4dp"
+                android:layout_margin="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/paso2_funcion_suma"
+                        android:textSize="15sp"
+                        android:textColor="@color/texto_gris" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/paso2_frase_suma"
+                        android:textSize="14sp"
+                        android:textStyle="italic"
+                        android:textColor="#2E7D32"
+                        android:layout_marginTop="8dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Tarjeta PROMEDIO -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                card_view:cardCornerRadius="12dp"
+                card_view:cardElevation="4dp"
+                android:layout_margin="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/paso2_funcion_promedio"
+                        android:textSize="15sp"
+                        android:textColor="@color/texto_gris" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/paso2_frase_promedio"
+                        android:textSize="14sp"
+                        android:textStyle="italic"
+                        android:textColor="#2E7D32"
+                        android:layout_marginTop="8dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Tarjeta MAX -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                card_view:cardCornerRadius="12dp"
+                card_view:cardElevation="4dp"
+                android:layout_margin="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/paso2_funcion_max"
+                        android:textSize="15sp"
+                        android:textColor="@color/texto_gris" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/paso2_frase_max"
+                        android:textSize="14sp"
+                        android:textStyle="italic"
+                        android:textColor="#2E7D32"
+                        android:layout_marginTop="8dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Tarjeta MIN -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                card_view:cardCornerRadius="12dp"
+                card_view:cardElevation="4dp"
+                android:layout_margin="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/paso2_funcion_min"
+                        android:textSize="15sp"
+                        android:textColor="@color/texto_gris" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/paso2_frase_min"
+                        android:textSize="14sp"
+                        android:textStyle="italic"
+                        android:textColor="#2E7D32"
+                        android:layout_marginTop="8dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Botón inferior -->
+    <Button
+        android:id="@+id/btnLeccionAprendida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/paso2_btn_leccion"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/modulo1_header"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+</LinearLayout>

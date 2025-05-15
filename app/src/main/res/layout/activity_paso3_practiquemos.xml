@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/modulo1_background"
+    android:padding="16dp">
+
+    <!-- Header -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/modulo1_header"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back"
+            android:contentDescription="@string/volver" />
+
+        <TextView
+            android:id="@+id/tvTituloPaso3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/paso3_titulo"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/texto_oscuro"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <!-- Instrucción -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/paso3_instruccion"
+        android:textSize="16sp"
+        android:textColor="@color/texto_oscuro"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Tabla simulada -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:background="@android:color/white"
+        android:elevation="2dp">
+
+        <!-- Cabecera de coordenadas -->
+        <TableRow>
+            <TextView style="@style/TablaCeldaCabecera" android:text="" />
+            <TextView style="@style/TablaCeldaCabecera" android:text="A" />
+            <TextView style="@style/TablaCeldaCabecera" android:text="B" />
+            <TextView style="@style/TablaCeldaCabecera" android:text="C" />
+        </TableRow>
+
+        <!-- Fila 1 -->
+        <TableRow>
+            <TextView style="@style/TablaCeldaCabecera" android:text="1" />
+            <TextView style="@style/TablaCeldaCabecera" android:text="Producto" />
+            <TextView style="@style/TablaCeldaCabecera" android:text="Cantidad" />
+            <TextView style="@style/TablaCeldaCabecera" android:text="Precio" />
+        </TableRow>
+
+        <!-- Fila 2 -->
+        <TableRow>
+            <TextView style="@style/TablaCelda" android:text="2" />
+            <TextView style="@style/TablaCelda" android:text="Manzanas" />
+            <TextView style="@style/TablaCelda" android:text="4" />
+            <TextView style="@style/TablaCelda" android:text="$1.200" />
+        </TableRow>
+
+        <!-- Fila 3 -->
+        <TableRow>
+            <TextView style="@style/TablaCelda" android:text="3" />
+            <TextView style="@style/TablaCelda" android:text="Peras" />
+            <TextView style="@style/TablaCelda" android:text="3" />
+            <TextView style="@style/TablaCelda" android:text="$900" />
+        </TableRow>
+
+        <!-- Fila 4 -->
+        <TableRow>
+            <TextView style="@style/TablaCelda" android:text="4" />
+            <TextView style="@style/TablaCelda" android:text="Bananos" />
+            <TextView style="@style/TablaCelda" android:text="5" />
+            <TextView style="@style/TablaCelda" android:text="$750" />
+        </TableRow>
+
+    </TableLayout>
+
+    <!-- Campo de respuesta -->
+    <EditText
+        android:id="@+id/etRespuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe tu respuesta aquí"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/texto_gris"
+        android:textColor="@android:color/black"
+        android:padding="12dp"
+        android:inputType="text" />
+
+    <!-- Botón de validación -->
+    <Button
+        android:id="@+id/btnPracticaCompletada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/paso3_btn_validar"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/modulo1_header"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

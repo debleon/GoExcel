@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:contentDescription="@string/logo_app"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="ExtraText"
+        tools:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="329dp"
+        android:layout_height="100sp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:text="@string/Mensaje_entrada"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:visibility="visible"
+        tools:ignore="InefficientWeight"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:backgroundTint="#D9D9D9"
+        android:text="@string/iniciar_sesi_n"
+        android:textColor="#2196F3"
+        android:textColorLink="#FFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="@string/registrarse"
+        android:textColor="#2196F3"
+        android:textColorLink="#FFFFFF"
+        android:textSize="16sp" />
+
+</LinearLayout>

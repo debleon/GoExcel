@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainVista"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ruta2_background"
+    tools:context=".ModuloVista2Activity">
+
+    <!-- Encabezado -->
+    <RelativeLayout
+        android:id="@+id/headerVista"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/ruta2_header"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            android:contentDescription="@string/volver" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tituloModulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MODULO 2"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/subtituloModulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Refuerzo de conceptos"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iconModulo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/informacion"
+            android:contentDescription="@string/icono_m_dulo_2" />
+    </RelativeLayout>
+
+    <!-- Contenido de información -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/headerVista"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Información del módulo"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:layout_marginBottom="12dp">
+
+            <!-- Bloque 1 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="📘 Módulo 2: Refuerzo de conceptos clave"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Este módulo profundiza en funciones vistas previamente y te entrena en su uso práctico en escenarios reales. Explorarás cómo aplicar SUMA, PROMEDIO, SI, Y, O, BUSCARV y otras funciones para resolver problemas comunes en Excel. La meta es que puedas automatizar análisis básicos y entender la lógica de decisión detrás de las fórmulas."
+                    android:textSize="13sp"
+                    android:textColor="@color/texto_gris" />
+            </LinearLayout>
+
+            <!-- Bloque 2 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="🎯 Habilidades que desarrollarás"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="• Aplicación de funciones condicionales con múltiples condiciones
+• Uso de BUSCARV para tablas dinámicas
+• Corrección de errores con SI.ERROR
+• Conteo con condiciones específicas usando CONTAR.SI
+• Interpretación lógica y evaluación de fórmulas"
+                    android:textSize="13sp"
+                    android:textColor="@color/texto_gris" />
+            </LinearLayout>
+
+            <!-- Bloque 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_columnSpan="2"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:padding="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="🗂️ Contenido del módulo paso a paso"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="📍 Paso 1: Revisión de funciones básicas como SUMA y PROMEDIO
+📍 Paso 2: Aplicación con tarjetas visuales y ejemplos prácticos
+📍 Paso 3: Interacción con tablas tipo Excel para resolver problemas
+📍 Paso 4: Retos evaluativos con validación automática
+📍 Paso 5: Evaluación final tipo Quiz con 10 preguntas para consolidar lo aprendido
+
+🔔 Al finalizar este módulo estarás listo para aplicar funciones en contextos reales y resolver problemas de análisis básicos."
+                    android:textSize="13sp"
+                    android:textColor="@color/texto_gris" />
+            </LinearLayout>
+        </GridLayout>
+    </LinearLayout>
+
+    <!-- Menú inferior -->
+    <RelativeLayout
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_nav_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="12dp"
+            android:weightSum="5">
+
+            <ImageView
+                android:id="@+id/nav_profile"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/perfil"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/home" />
+
+            <ImageView
+                android:id="@+id/nav_home"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/inicio"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/user" />
+
+            <ImageView
+                android:id="@+id/nav_logo"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="-7dp"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/goexcel"
+                android:scaleType="centerInside"
+                android:src="@drawable/logo" />
+
+            <ImageView
+                android:id="@+id/nav_stats"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/statistics"
+                android:background="@drawable/circle_bg"
+                android:scaleType="centerInside"
+                android:padding="8dp"
+                android:contentDescription="@string/estad_sticas" />
+
+            <ImageView
+                android:id="@+id/nav_trophy"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_bg"
+                android:contentDescription="@string/favoritos"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/favorito" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
