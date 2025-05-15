@@ -73,17 +73,18 @@ Además:
    git clone https://github.com/debleon/GoExcel
 
 2. Ejecuta en un emulador o dispositivo físico
-
-🔧 Nota: El archivo google-services.json ya está incluido en el proyecto, por lo que no se requiere configuración adicional de Firebase.
+   
+    Nota: El archivo google-services.json ya está incluido en el proyecto, por lo que no se requiere configuración adicional de Firebase.
 ---
 
 ## 🧑‍💻 Autores
 Nombres:
-Deby Johana León	
-Brayan Andrés Bellaizán	
+   1. Brayan Andres Bellaizan
+   4. Deby Johana Leon
 ---
-📜 Licencia
-Este proyecto se realiza con fines académicos en el marco de la materia Construcci{on de Aplicaciones Moviles
+##📜 Licencia
+
+   Este proyecto se realiza con fines académicos en el marco de la materia Construcci{on de Aplicaciones Moviles
 en la Universidad Jorge Tadeo Lozano.
 Todos los derechos están reservados por los autores y su uso externo debe contar con aprobación previa.
 
